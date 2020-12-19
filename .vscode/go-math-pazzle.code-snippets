@@ -19,10 +19,23 @@
         "scope": "go",
         "prefix": "cmp",
         "body": [
+            "actual := solve()",
             "if actual != test.expected {",
             "\tt.Errorf(\"\\nexpected %d\\n     got %d\", test.expected, actual)",
             "}",
         ],
         "description": "Snippet for if statement comparing actual and expected ones"
+    },
+    "solve": {
+        "scope": "go",
+        "prefix": "solve",
+        "body": [
+            "package main",
+            "",
+            "func main() {}",
+            "",
+            "func solve() {}",
+        ],
+        "description": "Snippet for function that solves a problem"
     }
 }
