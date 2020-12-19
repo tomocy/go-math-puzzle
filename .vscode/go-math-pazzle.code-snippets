@@ -21,7 +21,7 @@
         "body": [
             "actual := solve()",
             "if actual != test.expected {",
-            "\tt.Errorf(\"\\nexpected %d\\n     got %d\", test.expected, actual)",
+            "\tt.Errorf(\"\\nexpected %v\\n     got %v\", test.expected, actual)",
             "}",
         ],
         "description": "Snippet for if statement comparing actual and expected ones"
