@@ -19,7 +19,7 @@
         "scope": "go",
         "prefix": "cmp",
         "body": [
-            "actual := solve()",
+            "actual := solve($1)",
             "if actual != test.expected {",
             "\tt.Errorf(\"\\nexpected %v\\n     got %v\", test.expected, actual)",
             "}",
